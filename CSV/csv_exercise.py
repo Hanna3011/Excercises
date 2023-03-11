@@ -65,7 +65,7 @@ def binary_search_of_USD_value(value: float, sorted_increasingly_USD_exchanges_l
 
 
 if __name__ == '__main__':
-    file_name = ".\\kursy_usd_eur.csv"
+    file_name = "kursy_usd_eur.csv"
     exchanges_list = read_exchange_csv_file(file_name)
     sorted_list_eur_decrease = sort_eur_decrease(exchanges_list)
     sorted_list_usd_increase = sort_usd_increase(exchanges_list)
